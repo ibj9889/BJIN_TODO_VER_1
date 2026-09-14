@@ -1,0 +1,11 @@
+# User-specific generated files should never live in this repo —
+# this repo is the generic template/skill only.
+CLAUDE.md
+TASKS.md
+REFERENCE.md
+tasks/
+logs/
+reference/
+
+.DS_Store
+Thumbs.db
