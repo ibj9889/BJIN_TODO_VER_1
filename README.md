@@ -17,9 +17,11 @@
 Claude Code에서:
 
 ```
-/plugin marketplace add <본인계정>/BJIN_TODO_VER_1
-/plugin install bjin-todo@BJIN_TODO_VER_1
+/plugin marketplace add ibj9889/BJIN_TODO_VER_1
+/plugin install bjin-todo@bjin-todo-ver-1
 ```
+
+(marketplace 이름은 저장소 이름이 아니라 `.claude-plugin/marketplace.json`의 `name` 필드 — `bjin-todo-ver-1`)
 
 또는 클론해서 로컬 스킬로:
 
@@ -53,7 +55,9 @@ todo 시스템 초기설정 해줘
 
 ```
 BJIN_TODO_VER_1/
-├── .claude-plugin/plugin.json   # 플러그인 매니페스트
+├── .claude-plugin/
+│   ├── marketplace.json         # 마켓플레이스 카탈로그 (/plugin marketplace add 가 이걸 찾음)
+│   └── plugin.json              # 플러그인 매니페스트
 ├── skills/
 │   ├── todo-setup/              # 초기 설정 (개인정보 입력받아 개인화)
 │   ├── todo-log/                # 모드 A: 일일 업무 기록 (기본값)

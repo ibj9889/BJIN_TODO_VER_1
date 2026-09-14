@@ -2,7 +2,8 @@
   "name": "bjin-todo",
   "version": "1.0.0",
   "description": "개인 업무 기록(TODO) 관리 시스템 — 일일 로그, 주간보고 취합, 주간회의 발제 문서를 하나의 파일 구조로 관리. 초기설정 스킬로 본인 정보를 입력하면 바로 사용 가능.",
-  "author": "BJIN",
-  "license": "MIT",
-  "skills": "skills/"
+  "author": {
+    "name": "BJIN"
+  },
+  "license": "MIT"
 }
